@@ -56,7 +56,7 @@ redo.addEventListener("click", () => {
     dt.redo();
 });
 clear.addEventListener("click", () => {
-    const b = confirm("Are you sure to clear?");
+    const b = confirm("Deseas eliminar todo?");
     if (b) {
         dt.clear();
     }
